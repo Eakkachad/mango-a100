@@ -1,0 +1,52 @@
+[
+  {
+    "spec_type": "none",
+    "lang": "en",
+    "predicted_tokens": 1247,
+    "predicted_ms": 69333.7,
+    "tok_per_s": 17.99,
+    "spec_stats": {}
+  },
+  {
+    "spec_type": "none",
+    "lang": "th",
+    "predicted_tokens": 1280,
+    "predicted_ms": 71127.7,
+    "tok_per_s": 18.0,
+    "spec_stats": {}
+  },
+  {
+    "spec_type": "draft-mtp",
+    "lang": "en",
+    "predicted_tokens": 1247,
+    "predicted_ms": 84516.2,
+    "tok_per_s": 14.75,
+    "spec_stats": {
+      "draft-mtp": {
+        "gen_drafts": 399,
+        "acc_drafts": 340,
+        "gen_tokens": 1186,
+        "acc_tokens": 836,
+        "mean_acc_len": 3.1,
+        "token_accept_rate": 0.7048903878583473
+      }
+    }
+  },
+  {
+    "spec_type": "draft-mtp",
+    "lang": "th",
+    "predicted_tokens": 1280,
+    "predicted_ms": 166275.8,
+    "tok_per_s": 7.7,
+    "spec_stats": {
+      "draft-mtp": {
+        "gen_drafts": 781,
+        "acc_drafts": 255,
+        "gen_tokens": 2332,
+        "acc_tokens": 482,
+        "mean_acc_len": 1.62,
+        "token_accept_rate": 0.20668953687821612
+      }
+    }
+  }
+]

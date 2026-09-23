@@ -1,0 +1,12 @@
+[package]
+name = "e03-weaver-retarget-probe"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+katgpt-speculative = { path = "../../../../katgpt-rs/crates/katgpt-speculative", features = ["weaver_runtime"] }
+
+[[bin]]
+name = "e03_probe"
+path = "src/main.rs"

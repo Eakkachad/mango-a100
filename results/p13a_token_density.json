@@ -1,0 +1,116 @@
+{
+  "rows": [
+    {
+      "id": "fact_capital",
+      "cat": "factual",
+      "th_chars": 62,
+      "th_tokens": 23,
+      "th_chars_per_token": 2.6956521739130435,
+      "en_chars": 70,
+      "en_tokens": 15,
+      "en_chars_per_token": 4.666666666666667,
+      "token_ratio_th_over_en": 1.5333333333333334
+    },
+    {
+      "id": "fact_photosyn",
+      "cat": "factual",
+      "th_chars": 43,
+      "th_tokens": 21,
+      "th_chars_per_token": 2.0476190476190474,
+      "en_chars": 56,
+      "en_tokens": 11,
+      "en_chars_per_token": 5.090909090909091,
+      "token_ratio_th_over_en": 1.9090909090909092
+    },
+    {
+      "id": "gen_story",
+      "cat": "creative",
+      "th_chars": 73,
+      "th_tokens": 35,
+      "th_chars_per_token": 2.085714285714286,
+      "en_chars": 77,
+      "en_tokens": 18,
+      "en_chars_per_token": 4.277777777777778,
+      "token_ratio_th_over_en": 1.9444444444444444
+    },
+    {
+      "id": "gen_email",
+      "cat": "creative",
+      "th_chars": 57,
+      "th_tokens": 31,
+      "th_chars_per_token": 1.8387096774193548,
+      "en_chars": 62,
+      "en_tokens": 13,
+      "en_chars_per_token": 4.769230769230769,
+      "token_ratio_th_over_en": 2.3846153846153846
+    },
+    {
+      "id": "list_steps",
+      "cat": "structured",
+      "th_chars": 56,
+      "th_tokens": 34,
+      "th_chars_per_token": 1.6470588235294117,
+      "en_chars": 75,
+      "en_tokens": 22,
+      "en_chars_per_token": 3.409090909090909,
+      "token_ratio_th_over_en": 1.5454545454545454
+    },
+    {
+      "id": "list_pros",
+      "cat": "structured",
+      "th_chars": 56,
+      "th_tokens": 24,
+      "th_chars_per_token": 2.3333333333333335,
+      "en_chars": 80,
+      "en_tokens": 14,
+      "en_chars_per_token": 5.714285714285714,
+      "token_ratio_th_over_en": 1.7142857142857142
+    },
+    {
+      "id": "reason_math",
+      "cat": "reasoning",
+      "th_chars": 111,
+      "th_tokens": 63,
+      "th_chars_per_token": 1.7619047619047619,
+      "en_chars": 162,
+      "en_tokens": 46,
+      "en_chars_per_token": 3.5217391304347827,
+      "token_ratio_th_over_en": 1.3695652173913044
+    },
+    {
+      "id": "reason_logic",
+      "cat": "reasoning",
+      "th_chars": 96,
+      "th_tokens": 47,
+      "th_chars_per_token": 2.0425531914893615,
+      "en_chars": 119,
+      "en_tokens": 27,
+      "en_chars_per_token": 4.407407407407407,
+      "token_ratio_th_over_en": 1.7407407407407407
+    },
+    {
+      "id": "code_fib",
+      "cat": "code",
+      "th_chars": 67,
+      "th_tokens": 34,
+      "th_chars_per_token": 1.9705882352941178,
+      "en_chars": 82,
+      "en_tokens": 15,
+      "en_chars_per_token": 5.466666666666667,
+      "token_ratio_th_over_en": 2.2666666666666666
+    },
+    {
+      "id": "code_sql",
+      "cat": "code",
+      "th_chars": 71,
+      "th_tokens": 47,
+      "th_chars_per_token": 1.5106382978723405,
+      "en_chars": 76,
+      "en_tokens": 23,
+      "en_chars_per_token": 3.3043478260869565,
+      "token_ratio_th_over_en": 2.0434782608695654
+    }
+  ],
+  "mean_ratio_th_over_en": 1.845167521689261,
+  "sd": 0.3103603974814137
+}

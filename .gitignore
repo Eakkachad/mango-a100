@@ -1,0 +1,22 @@
+# Model weights — GB-scale, fetch with scripts/fetch_models.sh instead
+models/
+*.gguf
+*.safetensors
+
+# Rust build output
+target/
+**/target/
+
+# Verbose llama.cpp server traces (verbosity 10) — regenerate by re-running.
+# The parsed JSON results next to them ARE committed.
+results/*_logs/
+results/*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
